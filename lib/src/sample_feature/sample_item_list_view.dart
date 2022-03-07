@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fredgrotts_devfolio/src/presentation/widgets/text_scaler.dart';
+import 'package:fredgrotts_devfolio/src/presentation/widgets/text_scaling_factor.dart';
 
 import '../settings/settings_view.dart';
 import 'sample_item.dart';
@@ -49,11 +51,15 @@ class SampleItemListView extends StatelessWidget {
           final item = items[index];
 
           return ListTile(
-            title: Text('SampleItem ${item.id}'),
+            title: Text(
+              'SampleItem ${item.id}',
+              textScaleFactor: TextScaler.of<TextScalingFactor>(context)?.scaleFactor,
+            ),
             leading: const CircleAvatar(
               // Display the Flutter Logo image asset.
               foregroundImage: AssetImage('assets/images/flutter_logo.png'),
             ),
+            // ignore: prefer-extracting-callbacks
             onTap: () {
               // Navigate to the details page. If the user leaves and returns to
               // the app after it has been killed while running in the
@@ -62,7 +68,7 @@ class SampleItemListView extends StatelessWidget {
                 context,
                 SampleItemDetailsView.routeName,
               );
-            }
+            },
           );
         },
       ),

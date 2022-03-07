@@ -1,0 +1,44 @@
+Display Large
+  Titillium 96 SemiBold past w600
+
+Display Medium
+   Titillium Wbeb 60 SemiBold
+
+Display Small
+   Titillium Web 48 SemiBold
+
+Headline Large
+   TitilliumWeb Black w800 40
+
+Headline Medium
+   Titillium Web 34 Black
+
+Headline Small
+    Titillium WEb 24 Black
+
+Title Large
+   Titillium Web 20 Black w800
+
+Title Medium
+    Titillium Web 16 Black w800
+
+Title Small
+    Titillium Web 14 Black w800
+
+Body Large
+   Montserrat 16  Medium
+
+Body Medium
+    Montserrat 14 Medium
+
+Body Small
+    Montserrat Medium
+
+Label Large
+  Titillium Web Bold 14
+
+Label Medium
+  Titillium WEb Bold
+
+Label Small
+   Titillium WEb Bold

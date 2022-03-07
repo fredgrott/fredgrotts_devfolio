@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "34.0.0"
+  adaptive_breakpoints:
+    dependency: "direct main"
+    description:
+      name: adaptive_breakpoints
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.1"
   analyzer:
     dependency: transitive
     description:
@@ -212,7 +219,7 @@ packages:
     source: hosted
     version: "1.4.3"
   equatable:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: equatable
       url: "https://pub.dartlang.org"
@@ -381,7 +388,7 @@ packages:
     source: hosted
     version: "0.12.11"
   material_color_utilities:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: material_color_utilities
       url: "https://pub.dartlang.org"
